@@ -7,6 +7,17 @@
       <sourceFolder url="file://$MODULE_DIR$/2_variables-commentLine" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/3_dataTypes" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/4_basic operators" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/10_logicalOperators" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/11_ConditionCases" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/12_SwitchCase" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/13_MaxSayıyıBulma" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/14_KosulluBKİ" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/15_BasicCalculator" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/5_scanner" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/6_BedenKitleEndeksi" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/7_AracKMHesaplama" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/8_UcgenHipotenus" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/9_comparisonOperators" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
