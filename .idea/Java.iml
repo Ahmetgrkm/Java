@@ -18,6 +18,13 @@
       <sourceFolder url="file://$MODULE_DIR$/7_AracKMHesaplama" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/8_UcgenHipotenus" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/9_comparisonOperators" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/16_NotHesaplama" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/17_Loops" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/18_BreakANDContinue" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/19_DöngülerleATMprogramı" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/20_ArmstrongSayisi" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/21_CarpimTablosu" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/22_Kullanici_Girisi" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
