@@ -25,6 +25,8 @@
       <sourceFolder url="file://$MODULE_DIR$/20_ArmstrongSayisi" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/21_CarpimTablosu" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/22_Kullanici_Girisi" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/23_FaizUygulaması" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/24_Methods(Functions)" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
