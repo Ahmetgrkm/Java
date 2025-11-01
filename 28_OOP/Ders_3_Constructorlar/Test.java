@@ -50,6 +50,6 @@ public class Test {
 
 
 
-/*Biz oje oluşturduğumuz zaman methodları yukardakli gii tek tek vermememek için constructorları(yapıcı methodları) kullanırız. Constructorlar objeler oluşturulurken
+/*Biz obje oluşturduğumuz zaman methodları yukardaki gibi tek tek vermememek için constructorları(yapıcı methodları) kullanırız. Constructorlar objeler oluşturulurken
 ilk oluşturulan fonksiyonlardır. Eğer biz yazmazsak java kendisi deafult oluşturur ama eğer biz oluşturursak bizim oluşturduğumuzu kullanılır.
  */

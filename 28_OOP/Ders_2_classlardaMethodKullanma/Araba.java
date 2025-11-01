@@ -1,6 +1,6 @@
 package Ders_2_classlardaMethodKullanma;
 
-/*Otomatik şekilde encapsulation oluşturmak için Araa classının üstüne gelip sağ tıkla. Daha sonra encapsulation fielda as ve oluşturmak istediklerini seç
+/*Otomatik şekilde encapsulation oluşturmak için Araba classının üstüne gelip sağ tıkla. Daha sonra encapsulation fielda bas ve oluşturmak istediklerini seç
 ve ide senin için otomatik oluştursun.
  */
 
