@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class calculator2 {
 
     /*
-    Method overloading kullanarakgelişmiş bir hesap makinası geliştirelim.
+    Method overloading kullanarak gelişmiş bir hesap makinası geliştirelim.
     Toplama ve çarpma işlemlerini 2 veya 3 parametreli olacak şekilde tasarlayın.
      */
 
