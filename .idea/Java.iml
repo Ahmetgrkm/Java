@@ -32,6 +32,8 @@
       <sourceFolder url="file://$MODULE_DIR$/27_CalculatorWithMethodOverloading" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/28_OOP" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/JavaExamples" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/29_Arrays" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/30_Foreach" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
