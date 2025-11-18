@@ -36,8 +36,11 @@
       <sourceFolder url="file://$MODULE_DIR$/30_Foreach" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/30_StringVeStringÖzellikleri" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/31_LinkedLists" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/32_LinkedList" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/32_İnterface" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="KotlinJavaRuntime" level="project" />
   </component>
 </module>
