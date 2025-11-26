@@ -38,6 +38,9 @@
       <sourceFolder url="file://$MODULE_DIR$/31_LinkedLists" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/32_LinkedList" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/32_İnterface" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/33_Absract Class" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/34_Static" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/35_Inner Classlar" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
