@@ -41,6 +41,7 @@
       <sourceFolder url="file://$MODULE_DIR$/33_Absract Class" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/34_Static" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/35_Inner Classlar" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/36_Generic" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
