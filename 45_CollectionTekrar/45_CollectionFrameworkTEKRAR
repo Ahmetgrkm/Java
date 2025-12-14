@@ -1,0 +1,117 @@
+List Interface'i Implemente Eden Classlar
+- Elementleri liste halinde depolar.
+- Bir element birden fazla bulunabilir.
+- Elementler indeks ile tutulur.
+- Elementler eklenme sırasını korur.
+- Bir elemanı aramak çok yavaştır.
+- Bir elemana indeks değeri ile ulaşmak çok hızlıdır.
+- Listeler Collections.sort() metoduyla sıralanabilir.
+
+Thread İşlemlerinde KUllanılabilecek Veri Yapısı
+Vectorler --> Çünkü bazı methodları "synchoronized" anahtar kelimesi ile yazılmıştır.
+
+Elemanı Sadece Sone Eklediğimiz Durumlarda
+ArrayList --> Çünkü sadece sona eklemek arraylistlerde daha hızlıdır.
+
+Elemanı Ortalara Ekleyeceğimiz Durumlarda
+LinkedList --> Çünkü sadece o bölgenin referansları üzerinde işlem yapılır.
+
+-------------------------------------------------------------------------------------
+
+Set Interface'ini Implemente Eden Classlar
+- Bir elemanı sadece bir defa depolar.
+- Bir elemanın sadece bir defa depolanmasını istiyorsak Listler yerine kullanılabilir.
+- Elemanlar listeler gibi indekslenmezler.
+- Bir elemanın setlerde olup olmadığını sorgulama listlere göre oldukça hızlıdır.
+
+
+Elemanların Sırası Önemli Değilse ve sorgulama İşlemlerinin Hızlı Olması İsteniyorsa
+
+HashSet --> Elemanları ekleme sırasına göre depolamaz ve bir elemanın olup olmadığını sorgulama hash fonksiyonuyla yapıldığı için her zaman hızlı ve sabit
+zamanda çalışır
+
+
+Elemanların Eklenme Sırası Önemliyse Ve Sorgulama İşlemlerinin Hızlı Olması İsteniyorsa
+LinkedHashSet --> LinkedList ve HashSet İmplmentasyonu gibi çalıştığı için değerleri ekleme sırasına göre depolar. Ayrıca elemanları sorgulama çok hızlıdır
+ve sabit zamanda çalışır.
+
+Elemanların Sıralaması Önemliyse
+
+TreeSet --> Verileri ağaç yapısında depoladığı için veriler her zaman sıralıdır. Ancak bir elemanın var olup olmadığını sorgulama zamanı içindeki eleman sayısı
+ile doğru orantılıdır. (O(logn))
+
+Eğer kendi objelerimizi setlerde kullanmak istiyorsak hashCode() ve equals() methodlarını override etmeliyiz.
+
+--------------------------------------------------------------------------------------------------------------
+Map InterFaceini Implemente Eden classlar
+- Veriler anahtar değer ilişkisi ile depolanır
+- Bir key e karşılık gelen yalnızca 1 değer bulunur.
+- Bir Key birden fazla bulunamaz.
+- Bir değere bir key üzerinden ulaşmak çok hızlıdır.
+- Değerlerin üzerinde tek tek gezinmek çok yavaştır.
+- Eğer kendi objelerimizi maplerde kullanmak istiyorsak hashCode() ve equals() methodlarımızı override etmeliyiz.
+
+HashMap --> Anahtarlar ve değerler sıralı değildir.
+LinkedHashMap --> anahtarlar ve değerler eklenme sırasına göre depolanır.
+TreeMap --> Anahtarlar ve değerler "Anahtarlara Göre" Sıralı depolanır.
+
+----------------------------------------------------------------------------
+Queue Interface'ini implemente eden Classlar
+
+LinkedList
+Eğer Queue Interfaceinden bir referans ile LinkedLİst oluşturulursa bu linkedlist aynı zamanda bir queue gibi davranır
+First In First Out(İlk gelen ilk çıkar) FIFO mantığı ile çalışır.
+
+PriorityQueue
+Queue interfacini implemente etmesine rağmen FIFO mantığı ile çalışmaz. Değerler öncelik sırasına göre kuyruğun başına geçer.
+
+-----------------------------------------------------------------------------
+Vector Classından Extend Eden Stackler
+
+LIFO(Last In First Out) mantığı ile çalışır. Mantığı market kuyruğuna benzer, bilgisayarlarda rekürsif fonksiyınları çalıştırılırken kullanılır.
+
+------------------------------------------------------------------------------
+
+Kendi Objelerimizle Oluşturduğumuz bir Veri yapısını sıralamak
+
+Colleciton.sort() metoduyla kendi objelerimizle oluştıurduğumuz bir veri yapısını sıralamak için ya Comparable İnterfaceini yada Comparator Interfaceini
+implemente etmek zorundayız.
+
+------------------------------------------------------------------------------
+
+Iteratorlar ve Iterable
+
+Bir veri yapısından iterator oluşturarak veri yapısının elemanları üzerinde kolayca gezinebiliriz.
+Aslında ForEach döngüsü kendi içinde iterator kullanır.
+
+O yüzden bizimde bir classımızdan oluışturduğumuz objelerin üzerinde gezineiblmek için Itarable sınıfını implemente etmemiz ve Classımıza
+ait bir tane İterator class yazmamız gerekbilir.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
