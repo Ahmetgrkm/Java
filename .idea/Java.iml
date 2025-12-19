@@ -50,6 +50,8 @@
       <sourceFolder url="file://$MODULE_DIR$/42_final2" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/43_AcilServisUygulaması(CollectionKonuları)" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/44_Kumanda Iterable" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/46_Exception Handling" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/47_Fileişlemleri" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
