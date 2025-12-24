@@ -3,7 +3,8 @@ import java.io.IOException;
 
 public class FileWriterKonusu { //bu method sayesinde dosyamızı char'a dönüştürmeden direk yazmış oluruz uzun uzun uğraşmayız.
     public static void main(String[] args) {
-        FileWriter writer = null; //eğer try catch içinde tanımlasaydık finally içinde kullanamzdık o yüzden önce dışarda null tanımladık.
+
+        FileWriter writer = null; //eğer try catch içinde tanımlasaydık finally içinde kullanamazdık o yüzden önce dışarda null tanımladık.
         try {
             writer = new FileWriter("dosyawriter.txt",true); // bu true sayesinde yeni şeyleri öncekileri silmeden sona yazar.
 

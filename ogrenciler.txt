@@ -1,0 +1,8 @@
+Ahmed Görkem Çalışkan,Yazılım Mühendisliği
+Yusuf Bozkurt,Yazılım Mühendisliği
+Tahir Orman,Yazılım Mühendisliği
+Çarli,Mekatronik Mühendisliği
+Mami,Mekatronik Mühendisliği
+Pato,Mekatronik Mühendisliği
+Şehmus Ok,Yazılım Mühendisliği
+

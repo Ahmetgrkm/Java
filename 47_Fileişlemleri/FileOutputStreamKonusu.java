@@ -13,6 +13,7 @@ public class FileOutputStreamKonusu {
 
             fos.write(65); //ASCİİ ye göre yazar o değere karşılık gelen karakteri yazar
             fos.write(74);
+            fos.write(65);
 
             //byte[] array ={101,75,66,68};
             //fos.write(array); //bu şekilde byte arrayimizi yazdirabiliriz
@@ -20,8 +21,6 @@ public class FileOutputStreamKonusu {
             String s = "Ahmed görkem çalışkan";
             byte[] s_array = s.getBytes();// bu method string içindeki her karakteri bytelara dönüştürür.
             fos.write(s_array);
-
-
 
 
         } catch (FileNotFoundException e) {
